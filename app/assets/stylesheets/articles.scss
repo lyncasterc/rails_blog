@@ -11,19 +11,21 @@
 
 // Index styling
 
+.container{
+    max-width: 1000px;
+
+}
+
 ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    
     list-style: none;
 }
 
 // article cards
 .card {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-    width: 500px;
+    max-width: 450px;
     height: 300px;
     text-align: center;
     background-color: white;
@@ -86,7 +88,35 @@ ul{
 
 #new-article-btn{
     position: relative;
-    bottom:1720px;
+    bottom: 1880px;
     // right:400px;
-    left: 450px;
+    // left: 450px;
+}
+
+// new article form
+
+.form-container{
+    background-color: white !important;
+    text-align: left;
+    width: 70%;
+    max-width: 70%;
+    // max-height: fit-content;
+    padding: 20px;
+}
+
+div input[type="text"], div textarea{
+    width: 300px;
+    display: block;
+}
+
+div input[type="text"]{
+    margin-bottom: 50px;
+}
+div textarea{
+    height: 200px;
+    // margin-top: 50px;
+}
+#new-header{
+    color: #33383c;
+    margin-bottom: 50px;
 }
