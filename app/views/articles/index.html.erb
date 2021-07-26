@@ -4,9 +4,12 @@
     <li class = "card">
         <h3> <%= article.title %> </h3>
         <p class = "overflow-clip"> <%= article.body %> </p>
-        <%= link_to "Read More", article %>
+        <div class = "center" >
+            <%= link_to "Read More", article, :class => "btn" %>
+        </div>
     </li>
     <% end %>
 </ul>
 
-<%= link_to "New Article", new_article_path %>
+
+<%= link_to "New Article", new_article_path, :class => "btn", :id => "new-article-btn" %>
