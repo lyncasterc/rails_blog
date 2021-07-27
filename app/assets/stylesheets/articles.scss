@@ -109,6 +109,7 @@ div input[type="text"], div textarea{
     display: block;
     transition: all 0.2s ease-in;
     outline: none;
+    font-family: inherit;
 }
 
 div input[type="text"]:focus, div textarea:focus{
