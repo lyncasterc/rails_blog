@@ -14,8 +14,13 @@
 
 <div class = "comments-container"> 
     <h2> Comments </h2>
-    <%= render @article.comments %>
+    <div class = "comment">
+        <%= render @article.comments %>
+    </div>
+<div>
 
+<div class = "comments-form-container">
     <h2> Add a comment: </h2>
     <%= render 'comments/form' %>
-<div>
+</div>
+    

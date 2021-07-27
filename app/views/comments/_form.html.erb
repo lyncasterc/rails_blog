@@ -1,13 +1,15 @@
-<%= form_with model: [ @article, @article.comments.build ] do |form| %>
-  <p> 
+<div class = "comments-form"> 
+  <%= form_with model: [ @article, @article.comments.build ] do |form| %>
+  
     <%= form.label :commenter %>
     <%= form.text_field :commenter %>
-  </p>
-  <p> 
+
     <%= form.label :body %>
     <%= form.text_field :body %>
-  </p>
-  <p>
-    <%= form.submit %>
-  </p>
-<% end %>
+
+  <div >
+    <%= form.submit class: "comments-form-btn" %>
+  </div>
+  
+  <% end %> 
+</div>

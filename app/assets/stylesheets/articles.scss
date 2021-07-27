@@ -21,6 +21,10 @@ ul{
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 // article cards
 .card {
     margin-bottom: 50px;
@@ -159,12 +163,10 @@ div textarea{
 // Show styling
 
 .article-container{
-    // background-color: red;
     width: 80vw;
     line-height: 1.5;
     font-size: 1.1rem;
     text-align: justify;
-    // height: 90vh;
 }
 .article-container ul{
     display: flex;
@@ -196,6 +198,17 @@ div textarea{
 //Comments 
 .comments-container{
     margin-top: 100px;
+    height: fit-content;
+}
+
+.comments-form-container{
     background: white;
     padding: 30px;
+
+    margin-top: 50px;
+}
+.comment{
+    background-color: white;
+    padding: 15px;
+    
 }
