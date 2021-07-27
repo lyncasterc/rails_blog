@@ -98,8 +98,8 @@ ul{
 .form-container{
     background-color: white !important;
     text-align: left;
-    width: 70%;
-    max-width: 70%;
+    width: 60%;
+    max-width: 60%;
     // max-height: fit-content;
     padding: 20px;
 }
@@ -142,4 +142,14 @@ div textarea{
 
 #title-error-msg{
     margin-bottom: 20px;
+}
+
+#form-submit-btn{
+    border: none;
+}
+
+.form-container label{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
 }
