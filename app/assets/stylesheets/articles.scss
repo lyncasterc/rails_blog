@@ -89,8 +89,6 @@ ul{
 #new-article-btn{
     position: relative;
     bottom: 1880px;
-    // right:400px;
-    // left: 450px;
 }
 
 // new article form
@@ -100,14 +98,13 @@ ul{
     text-align: left;
     width: 60%;
     max-width: 60%;
-    // max-height: fit-content;
     padding: 20px;
 }
 
 div input[type="text"], div textarea{
     width: 600px;
     display: block;
-    transition: all 0.2s ease-in;
+    transition: border-color 0.2s ease-in;
     outline: none;
     font-family: inherit;
     font-size: 1.1rem;
