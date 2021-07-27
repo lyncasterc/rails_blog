@@ -1,3 +1,6 @@
+<div id = "new-article-btn-cont">
+        <%= link_to "New Article", new_article_path, :class => "btn", :id => "new-article-btn" %> 
+</div>  
 <div class= "container">
     <ul>
     <% @articles.each do |article| %>
@@ -11,7 +14,5 @@
     <% end %>
 </ul>
 
-
-    <%= link_to "New Article", new_article_path, :class => "btn", :id => "new-article-btn" %>   
 </div>
 
