@@ -105,18 +105,34 @@ ul{
 }
 
 div input[type="text"], div textarea{
-    width: 300px;
+    width: 600px;
     display: block;
 }
-
+// title
 div input[type="text"]{
-    margin-bottom: 50px;
+    margin-bottom: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #cbcbcb;
 }
+// body 
 div textarea{
     height: 200px;
-    // margin-top: 50px;
+    border-radius: 5px;
+    margin-bottom:35px;
+    border: 1px solid #cbcbcb;
+
 }
 #new-header{
     color: #33383c;
     margin-bottom: 50px;
+}
+
+.error-msg{
+    color: rgb(233, 0, 0);
+
+}
+
+#title-error-msg{
+    margin-bottom: 20px;
 }
